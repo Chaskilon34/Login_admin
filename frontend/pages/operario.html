@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Operario</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <h2>Bienvenido Operario</h2>
+   <button id="logoutBtn">Cerrar sesión</button>
+<script>
+  document.getElementById('logoutBtn').addEventListener('click', () => {
+    window.location.replace('/index.html'); // Redirige al archivo que borra la sesión
+  });
+</script>
+</body>
+</html>
